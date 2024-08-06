@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{    
+background: linear-gradient(#8c00ff, rgb(250, 250, 250))
+
+}
+
+
+.Caixa-numeros {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+input,button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+    color: black;
+
+}
+ 
+
+
+form {
+    margin-top: 40px;
+}
+
+ 
+button {
+    background-color: #8c00ff;
+    border: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #ffffff;
+}
+     
+.ErroMensage{
+    padding: 8px;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    display: none;
+    margin-bottom: 8px;
+    font-size: 12px;
+    
+}
+
+.CertoMesage{
+    padding: 16px;
+    background-color: rgb(60, 255, 0);
+    color: #ffffff;
+    display: none;
+   
+}
+
+#Titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+
+ }
